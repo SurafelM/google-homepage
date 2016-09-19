@@ -1,4 +1,91 @@
-body
-{
-  font-size: 40pt;
+.alink{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 15px;
+    float: right;
+}
+#navlink{
+    color: #525067;
+    display: inline;
+}
+#navlink:hover{
+    text-decoration: underline;
+}
+#navlink:active{
+    color: red;
+}
+#signInBtn{
+    display: block;
+    background: blue;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.imgDiv{
+    width: 100%;
+    display: block;
+    top: 30%;
+    margin: 0 auto;
+    position: absolute;
+}
+#logo{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+.textInput{
+    width: 450px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px double #b7b7b7;
+    box-shadow: 1px 1px 2px grey;
+    border-radius: 4px;
+    position: absolute;
+    left: 25%;
+    top: 120px;
+}
+.SearchDiv{
+    width: 100%;
+    display: block;
+    top: 51%;
+    margin: 0 auto;
+    position: absolute;
+}
+#btnGoogleSearch{
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: gainsboro;
+    border: 1px;
+    border-radius: 2px;
+    position: absolute;
+    left: 33%;
+}
+#btnAmLucky{
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: gainsboro;
+    border: 1px;
+    border-radius: 2px;
+    position: absolute;
+    left: 43%;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 80em;
+    background: #c9c9c9;
+}
+.leftFootDiv{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.rightFootDiv{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
